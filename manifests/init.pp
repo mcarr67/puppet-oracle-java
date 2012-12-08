@@ -4,7 +4,7 @@ class oracle-java {
     default => 'i586',
   }
   $package_name = "${java_distrib}-${java_version}-linux-${arch}.tar.gz"
-  file { "${java_base_dir}/java':
+  file { "${java_base_dir}/java":
     ensure => directory,
   }
   file { "${java_base_dir}/java/${package_name}":
