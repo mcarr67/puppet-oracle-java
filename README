@@ -2,6 +2,6 @@ Usage
 =====
 
 * Download the package from Oracle (ex. jre-7u7-linux-x64.tar.gz) and put it in files/
-* Set the two parameters: java-version (7u7) and java-distrib (jre or jdk)
+* Set the three parameters: java-version (7u7), java-distrib (jre or jdk) and java_base_dir
 
-After the run, Java is installed in /usr/local/java/7u7...
+After the run, Java is installed in ${java_base_dir}/java/7u7...
